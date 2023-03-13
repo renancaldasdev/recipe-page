@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: "Montserrat", sans-serif;
+  --title-fonts: "Playfair Display", serif;
+
+  --black-color: #000000;
+  --gray-dark-color: #4f4f4f;
+  --gray-medium-color: #333333;
+  --gray-light-color: #bdbdbd;
+  --gray-footer-color: #828282;
+  --orange-color: #f2994a;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
