@@ -1,0 +1,104 @@
+@media (max-width: 400px) {
+  .header-content h1 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .header-content-desc p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .header-content {
+    padding-bottom: 1.2rem;
+  }
+
+  .main-recipe {
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2.4rem;
+  }
+  .main-recipe-preparation {
+    order: -1;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    border-radius: 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .item-details {
+    gap: 0.5rem;
+    justify-content: flex-start;
+  }
+  .item-details:first-child {
+    width: 100%;
+  }
+
+  .item-details > div p:first-child {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .item-details > div p:last-child {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .item-details img {
+    width: 14px;
+  }
+  .recipe-ingredients-item h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .recipe-ingredients-item h4 {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+
+  .recipe-ingredients-checkbox {
+    gap: 0.8rem;
+  }
+  .recipe-ingredients-checkbox > div {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    min-width: 32.1rem;
+  }
+
+  .main-recipe-instructions h2 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+  .step-desc {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    max-width: 30rem;
+  }
+
+  .main-recipe-instructions-steps {
+    gap: 0.5rem;
+  }
+
+  .recipe-font {
+    max-width: 35.2rem;
+    padding-top: 2.6rem;
+  }
+
+  .recipe-font span {
+    display: block;
+  }
+
+  .recipe-font a {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  footer {
+    font-family: 1.4rem;
+    line-height: 1.7rem;
+  }
+}
