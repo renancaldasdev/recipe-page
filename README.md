@@ -28,10 +28,7 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -44,6 +41,7 @@
 ![screenshot](./.github/mobile.gif)
 
 </div>
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
